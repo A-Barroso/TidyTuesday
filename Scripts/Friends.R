@@ -1,4 +1,4 @@
-setwd("C:/Users/Nutzer/Desktop/MSc/R/Projects/TidyTuesday/Code")
+setwd("C:/Users/Nutzer/Desktop/MSc/R/Projects/TidyTuesday/Scripts")
 
 library(tidyverse)
 library(extrafont)
