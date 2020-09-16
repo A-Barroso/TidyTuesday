@@ -28,7 +28,7 @@ kids %>%
         panel.grid.minor = element_line(size = 0.3, colour = "grey87"),
         axis.text.x = element_text(size = 9, angle = 70, vjust = 1, hjust=1),
         axis.title.x = element_blank(),
-        axis.title.y = element_text(size = 8, margin = margin(0, 20, 0, 0)),
+        axis.title.y = element_text(size = 9, margin = margin(0, 20, 0, 0)),
         plot.background = element_rect(fill = "grey97"),
         plot.title = element_text(colour = "#663F46", size = 36, face ="bold", margin = margin(20, 0, 10, 0)),
         plot.subtitle = element_text(colour = "grey30", size = 10, face = "bold", margin = margin(0, 0, 30, 0)),
