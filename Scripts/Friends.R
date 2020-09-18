@@ -1,8 +1,7 @@
-setwd("C:/Users/Nutzer/Desktop/MSc/R/Projects/TidyTuesday/Scripts")
-
 library(tidyverse)
 library(extrafont)
 library(cowplot)
+library(here)
 
 friends_emotions <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-09-08/friends_emotions.csv')
 
@@ -93,7 +92,7 @@ ggdraw() +
   draw_label("Mean IMDb Rating: 8.50", x= 0.855, y = 0.271, colour = "white", size = 10)
 
 
-ggsave("TidyTuesdayW37.tiff", plot = last_plot(), dpi = 400, height = 180, width = 280, units = "mm")
+ggsave("Images/Week37_Friends.tiff", plot = last_plot(), dpi = 400, height = 180, width = 280, units = "mm")
 
 
 
